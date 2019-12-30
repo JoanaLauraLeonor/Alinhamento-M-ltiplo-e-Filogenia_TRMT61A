@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_37967</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_689520.2 tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRMT61A [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>289</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_37967</Iteration_query-ID>
+  <Iteration_query-def>NP_689520.2 tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRMT61A [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q96FX7.1|</Hit_id>
+  <Hit_def>RecName: Full=tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRMT61A; AltName: Full=mRNA methyladenosine-N(1)-methyltransferase catalytic subunit TRMT61A; AltName: Full=tRNA(m1A58)-methyltransferase subunit TRMT61A; Short=tRNA(m1A58)MTase subunit TRMT61A [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96FX7</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>591.652</Hsp_bit-score>
+      <Hsp_score>1524</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MSFVAYEELIKEGDTAILSLGHGAMVAVRVQRGAQTQTRHGVLRHSVDLIGRPFGSKVTCGRGGWVYVLHPTPELWTLNLPHRTQILYSTDIALITMMLELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQEHRVGRWVTVRTQDVCRSGFGVSHVADAVFLDIPSPWEAVGHAWDALKVEGGRFCSFSPCIEQVQRTCQALAARGFSELSTLEVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTSPFRSGTPMKEAVGHTGYLTFATKTPG</Hsp_qseq>
+      <Hsp_hseq>MSFVAYEELIKEGDTAILSLGHGAMVAVRVQRGAQTQTRHGVLRHSVDLIGRPFGSKVTCGRGGWVYVLHPTPELWTLNLPHRTQILYSTDIALITMMLELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQEHRVGRWVTVRTQDVCRSGFGVSHVADAVFLDIPSPWEAVGHAWDALKVEGGRFCSFSPCIEQVQRTCQALAARGFSELSTLEVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTSPFRSGTPMKEAVGHTGYLTFATKTPG</Hsp_hseq>
+      <Hsp_midline>MSFVAYEELIKEGDTAILSLGHGAMVAVRVQRGAQTQTRHGVLRHSVDLIGRPFGSKVTCGRGGWVYVLHPTPELWTLNLPHRTQILYSTDIALITMMLELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQEHRVGRWVTVRTQDVCRSGFGVSHVADAVFLDIPSPWEAVGHAWDALKVEGGRFCSFSPCIEQVQRTCQALAARGFSELSTLEVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTSPFRSGTPMKEAVGHTGYLTFATKTPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q9BVS5.2|</Hit_id>
+  <Hit_def>RecName: Full=tRNA (adenine(58)-N(1))-methyltransferase, mitochondrial; AltName: Full=mRNA methyladenosine-N(1)-methyltransferase; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BVS5</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.87625e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>LIGRPFGSKVTCGRGGWVYVLHPTPELWTLNLPHRTQILYSTDIALITMMLELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQEHR-------VGRW---VTVRTQDVCRSGFGVSHVA-DAVFLDIPSPWEAVGHAWDALKVEGGRFCSFSPCIEQV------QRTCQ-ALAARGFSEL</Hsp_qseq>
+      <Hsp_hseq>IVGKFPGQILRSSFGKQYMLRRPALEDYVVLMKRGTAITFPKDINMILSMMDINPGDTVLEAGSGSGGMSLFLSKAVGSQGRVISFEVRKDHHDLAKKNYKHWRDSWKLSHVEEWPDNVDFIHKDISGATEDIKSLTFDAVALDMLNPHVTLPVFYPHLK-HGGVCAVYVVNITQVIELLDGIRTCELALSCEKISEV</Hsp_hseq>
+      <Hsp_midline>++G+  G  +    G    +  P  E + + +   T I +  DI +I  M+++ PG  V E+G+GSG +S  + + +   G + + E  +   + A++ ++  R       V  W   V    +D+  +   +  +  DAV LD+ +P   +   +  LK  GG    +   I QV       RTC+ AL+    SE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q5R7E5.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein-L-isoaspartate O-methyltransferase domain-containing protein 1 [Pongo abelii] &gt;sp|Q96MG8.2| RecName: Full=Protein-L-isoaspartate O-methyltransferase domain-containing protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96MG8</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0471906</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>LELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQEHRVGRWVTVRTQDVCRSGFGV---------SHVADAVFLDIPSPWEAVGHAWDALKVEGGRFCSFSPCIEQVQRTCQ</Hsp_qseq>
+      <Hsp_hseq>LKLQPGLSFLNLGSGTGYLSTMVGLILGPFGINHGIELHSDVVEYAKEKL-ESFIKNSDSFDKFEFCEPAFVVGNCLQIASDSHQYDRIYCGAGVQKDHENYMKILLKVGGILVMPIEDQLTQIMRTGQ</Hsp_hseq>
+      <Hsp_midline>L+L+PG      G+G+G +S  +   + P G  H +E H    E A+E+  E  +    +    + C   F V         SH  D ++       +   +    LKV G         + Q+ RT Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q5R7K4.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein-L-isoaspartate O-methyltransferase domain-containing protein 2 [Pongo abelii] &gt;sp|Q9NV79.2| RecName: Full=Protein-L-isoaspartate O-methyltransferase domain-containing protein 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NV79</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.244614</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>LELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQ</Hsp_qseq>
+      <Hsp_hseq>LDLQPGLSFLNLGSGTGYLSSMVGLILGPFGVNHGVELHSDVIEYAKQKLD</Hsp_hseq>
+      <Hsp_midline>L+L+PG      G+G+G +S  +   + P G  H VE H    E A+++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q86Y26.2|</Hit_id>
+  <Hit_def>RecName: Full=NUT family member 1; AltName: Full=Nuclear protein in testis [Homo sapiens]</Hit_def>
+  <Hit_accession>Q86Y26</Hit_accession>
+  <Hit_len>1132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.73418</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>715</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>DVCRS-GFGVSHVADAVFLDIPSPWEAVGHAWDALKVEGGRFCSFSPCIEQVQRTCQALAARGFSELSTLEVL</Hsp_qseq>
+      <Hsp_hseq>DVCLSPGVWLSSEMDAVGLELPVQIEEVIESFQVEK-----------CVTEYQEGCQGLGSRGNISLGPGETL</Hsp_hseq>
+      <Hsp_midline>DVC S G  +S   DAV L++P   E V  ++   K           C+ + Q  CQ L +RG   L   E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q8IWU2.2|</Hit_id>
+  <Hit_def>RecName: Full=Serine/threonine-protein kinase LMTK2; AltName: Full=Apoptosis-associated tyrosine kinase 2; AltName: Full=Brain-enriched kinase; Short=hBREK; AltName: Full=CDK5/p35-regulated kinase; Short=CPRK; AltName: Full=Kinase/phosphatase/inhibitor 2; AltName: Full=Lemur tyrosine kinase 2; AltName: Full=Serine/threonine-protein kinase KPI-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8IWU2</Hit_accession>
+  <Hit_len>1503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.24456</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>AARGFSELSTLEVLPQVYNVRTVSLPPPDL</Hsp_qseq>
+      <Hsp_hseq>AAQPYSNLSNLDVLNQVIRERDTKLPKPQL</Hsp_hseq>
+      <Hsp_midline>AA+ +S LS L+VL QV   R   LP P L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|P49588.2|</Hit_id>
+  <Hit_def>RecName: Full=Alanine--tRNA ligase, cytoplasmic; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS; AltName: Full=Renal carcinoma antigen NY-REN-42 [Homo sapiens]</Hit_def>
+  <Hit_accession>P49588</Hit_accession>
+  <Hit_len>968</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.75201</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>671</Hsp_hit-from>
+      <Hsp_hit-to>742</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CQALAARGFSELSTL--EVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTS-PFRSGTPMKEAVGHTGYLTFATK</Hsp_qseq>
+      <Hsp_hseq>CPLAAAKAIQGLRAVFDETYPDPVRVVSIGVPVSELLDDPSGPAGSLTSVEFCGGTHLRNS-SHAGAFVIVTE</Hsp_hseq>
+      <Hsp_midline>C   AA+    L  +  E  P    V ++ +P  +L     GPAGS TS  F  GT ++ +  H G     T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q8WZ04.3|</Hit_id>
+  <Hit_def>RecName: Full=Transmembrane O-methyltransferase; AltName: Full=Catechol O-methyltransferase 2; AltName: Full=Protein LRTOMT2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8WZ04</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.54793</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>LITMMLELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREE-----FQEHRVGRWVTVRTQDV---CRSGFGVSHVADAVFL</Hsp_qseq>
+      <Hsp_hseq>ILMRLVEEKAPACVLELGTYCGYSTLLIARALPPGGRLLTVERDPRTAAVAEKLIRLAGFDEHMV-ELIVGSSEDVIPCLRTQYQLSR-ADLVLL</Hsp_hseq>
+      <Hsp_midline>++  ++E +  + V E GT  G  +  I R + P G L TVE   + A  A +      F EH V   +   ++DV    R+ + +S  AD V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q86UY5.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein FAM83A; AltName: Full=Tumor antigen BJ-TSA-9; AltName: Full=Tumor-specific gene expressed in prostate protein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q86UY5</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.75474</Hsp_evalue>
+      <Hsp_query-from>228</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LSTLEVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTSPFRSGT</Hsp_qseq>
+      <Hsp_hseq>LSSVEAQYIQAQAREPPCPPDTLGGAEAGPKGLDSSSLQSGT</Hsp_hseq>
+      <Hsp_midline>LS++E        R    PP  LG    GP G D+S  +SGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>20392</Statistics_db-num>
+      <Statistics_db-len>11366175</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
